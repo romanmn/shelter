@@ -1,0 +1,191 @@
+body{
+    min-width: 1280px;
+    margin: 0px;
+    margin-top: -20px;
+}
+
+/* Header  */
+.header {
+    background-image: url(../assets/images/Start-screen.png);
+    background-size: 100%;
+    /* background: radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), 
+                linear-gradient(0deg, #211f20, #211f20); */
+    padding-top: 60px;
+    padding-left: 40px; 
+    padding-right: 40px;
+    height: 908px;;
+}
+
+.menuHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainHeader button {
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 6%;
+    color: #292929;
+}
+
+.header img {
+    position: absolute;
+    right: 3.125%;
+    top: 19.82%;
+}
+
+
+/* Description */
+.description{
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.description img{
+    width: 300px;
+    height: 408px;
+}
+
+.descriptionText{
+    margin-left: 120px;
+}
+
+.listOfPets{
+    background-color: #F6F6F6;
+}
+
+.listOfPetsItems{
+    display: flex;
+}
+
+.buttonArrow{
+    width: 52px;
+    height: 52px;
+    padding-right: 33px;
+    padding-top: 193px;
+}
+
+.pet{
+    padding-right: 90px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.listOfPets button {
+    height: 49px;
+    width: 187px;
+    background: #FAFAFA;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 6%;
+
+}
+
+#moreInfo {
+    width: 261px;
+    margin: 60px 510px 100px 510px;
+    background-color: #F1CDB3;
+}
+
+.howToHelpBlock{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.howToHelpItem{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+.howToHelpItem img{
+    width: 60px;
+    height: 60px;
+}
+
+.howToHelpBlockSecondRow, .howToHelpBlockFirstRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.donation{
+    display: flex;
+}
+.donation img {
+    margin-left: 183px;
+    margin-top: 91px;
+    width: 505px;
+    height: 261px;
+}
+
+.card{
+    width: 349px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F1CDB3;
+    ;
+}
+
+.card img {
+    width: 30px;
+    height: 23px;
+    position: relative;
+    bottom: 80px;
+    right: 150px;
+}
+
+.footer{
+    background-image: url(../assets/images/footer-gradient-background.png);
+    background-size: 100%;
+    display: flex;
+}
+
+.footerDiv1, .footerDiv2{
+    padding-left: 40px;
+}
+
+.contact{
+    display: flex;
+}
+
+#mailItem{
+    width: 40px;
+    height: 26px;
+}
+
+#phoneItem{
+    width: 40px;
+    height: 32px;
+}
+
+.markerItem{
+    width: 22px;
+    height: 32px;
+}
+
+#mailText{
+    width: 191px;
+}
+
+#phoneText{
+    width: 179px;
+}
+
+.markerText{
+    width: 260px;
+}

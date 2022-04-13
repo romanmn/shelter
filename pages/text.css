@@ -1,0 +1,275 @@
+@font-face{
+    font-family: 'Georgia';
+    src: url(../assets/fonts/Georgia/Georgia.eot);  
+    src: url(../assets/fonts/Georgia/Georgia.ttf) format('truetype');
+    src: url(../assets/fonts/Georgia/Georgia.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'GeorgiaBold';
+    src: url(../assets/fonts/Georgia/Georgia-Bold.eot);  
+    src: url(../assets/fonts/Georgia/Georgia-Bold.ttf) format('truetype');
+    src: url(../assets/fonts/Georgia/Georgia-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'GeorgiaBoldItalic';
+    src: url(../assets/fonts/Georgia/Georgia-BoldItalic.eot);  
+    src: url(../assets/fonts/Georgia/Georgia-BoldItalic.ttf) format('truetype');
+    src: url(../assets/fonts/Georgia/Georgia-BoldItalic.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'GeorgiaItalic';
+    src: url(../assets/fonts/Georgia/Georgia-Italic.eot);  
+    src: url(../assets/fonts/Georgia/Georgia-Italic.ttf) format('truetype');
+    src: url(../assets/fonts/Georgia/Georgia-Italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(../assets/fonts/Arial/ArialMT.eot);
+    src: url(../assets/fonts/Arial/ArialMT.woff) format('woff');
+    src:url(../assets/fonts/Arial/ArialMT.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ArialBold';
+    src: url(../assets/fonts/Arial/Arial-BoldMT.eot);
+    src: url(../assets/fonts/Arial/Arial-BoldMT.woff) format('woff');
+    src:url(../assets/fonts/Arial/Arial-BoldMT.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ArialItalic';
+    src: url(../assets/fonts/Arial/Arial-ItalicMT.eot);
+    src: url(../assets/fonts/Arial/Arial-ItalicMT.woff) format('woff');
+    src:url(../assets/fonts/Arial/Arial-ItalicMT.ttf) format('truetype');
+}
+
+/* Header  */
+.nameHeader h2{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #F1CDB3;
+    font-weight: 400;
+    Size: 32px;
+    line-height: 35.2px;
+    letter-spacing: 6%;
+    
+};
+
+.nameHeader p {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400px;
+    size: 13px;
+    line-height: 14.95px;
+    color: #FFFFFF;
+    letter-spacing: 10%;
+}
+/* если убрать верх или ниж. блок, перестанет работать стиль */
+#par {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400px;
+    size: 13px;
+    line-height: 14.95px;
+    color: #FFFFFF;
+    letter-spacing: 10%;
+}
+
+/* List  */
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400px;
+    size: 15px;
+    line-height: 24px;
+    color: #CDCDCD;
+    margin-right: 35px;
+    height: 24px;
+}
+
+li:first-child {
+    color: #FAFAFA;
+    border-bottom: 3px solid #FAFAFA;
+}
+
+li:hover {
+    background-color: #211F20;
+    color: #FAFAFA;
+    border-bottom: 3px solid #FAFAFA;
+}
+
+
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+}
+.mainHeader h1{
+    color: #FFFFFF;
+    width: 310px;
+    height: 114px;
+    /* left: calc(50% - 310px/2 - 75px); */
+    /* bottom: 208px; */
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+}
+
+.mainHeader p {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400px;
+    size: 15px;
+    line-height: 24px;
+    width: 460px;
+    color: #CDCDCD;
+}
+
+
+/* Description  */
+.descriptionText h3{
+    height: 90px;
+    width: 370px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.descriptionText p{
+    width: 430px;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4C4C4C;
+}
+
+.listOfPets h3{
+    width: 400px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 6%;
+    text-align: center;
+    color: #545454;
+    margin-left: 440px;
+    margin-right: 440px;
+    padding-top: 80px;
+
+}
+
+.pet h6{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 6%;
+    text-align: center;
+    color: #545454;
+}
+
+/* How you can help */
+.howToHelp h3{
+    margin-top: 92px;
+    width: 308px;
+font-family: 'Georgia', 'Times New Roman', Times, serif;
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 6%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.howToHelpItem {
+    margin-bottom: 55px;
+}
+
+/* About the shelter */
+.donationText h3{
+    height: 90px;
+    width: 300px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.donationText p{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 6%;
+    text-align: left;
+    color: #545454;
+}
+
+.card p{
+    display: flex;
+    position: relative;
+    inline-size: auto;
+    right:100px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 6%;
+    text-align: left;
+
+}
+
+.donationTextDescription{
+    font-family: 'Arial-ItalicMT', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 380px;
+    color: #B2B2B2;
+}
+
+.footerDiv1 h4, .footerDiv2 h4{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 6%;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.footerDiv1 h4{
+    width: 278px;
+    margin-right: 161px;
+}
+
+.footerDiv2 h4{
+    width: 270px;
+}
+
+.contact a, .contact p{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 6%;
+    text-align: left;
+    color: #F1CDB3;
+}
+
